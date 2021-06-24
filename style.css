@@ -1,0 +1,53 @@
+/* .content {
+  display: grid;
+  /* grid-row-gap: 1rem; */
+  grid-template-areas:
+   "header header header" 20px
+   ". main ." 100fr
+   200px 55ch 200px /
+  /* grid-template-columns: 200px 55ch 200px; */
+  margin-top: 2rem;
+} */
+
+main {
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  font-size: 1rem;
+}
+
+.h1 {
+  background-color: darkred;
+  color: white;
+  padding: 20px;
+  margin: 0px;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+
+body {
+  color: black;
+}
+
+main {
+  
+}
+p {
+  margin-bottom: 3rem;
+  line-height: 3rem;
+  font-variant: ;
+  background-color: lightgreen;
+  padding: 20px;
+  font-style: italic;
+  font-size: 1.5rem;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  text-align: justify;
+}
